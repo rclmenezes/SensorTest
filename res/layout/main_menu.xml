@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+	
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg00"
+    >
+    <TextView android:text="TextView" 
+    		  android:id="@+id/main_menu_textview"
+    		  android:lines="10" 
+    		  android:layout_width="match_parent"
+    		  android:layout_height="wrap_content"
+    		  android:gravity="center">
+    		  </TextView>
+    <Button android:text="Enroll" 
+    		android:id="@+id/enrollButton" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center_vertical">
+    		</Button>
+    <Button android:text="Verify (One to one)" 
+    		android:id="@+id/verifyButton" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center_vertical">
+    		</Button>
+    <Button android:text="Identify (One to many)" 
+    		android:id="@+id/identifyButton" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center_vertical">
+    		</Button>
+   	
+</LinearLayout>

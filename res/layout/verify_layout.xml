@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3"
+    >
+    <ScrollView android:id="@+id/scrollView"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	<LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="1000px" android:orientation="vertical">
+	        <TextView 
+	        	android:text="TextView" 
+	        	android:id="@+id/verifyText" 
+	        	android:layout_width="match_parent" 
+	        	android:layout_height="wrap_content" 
+	        	android:layout_gravity="center_horizontal" android:layout_weight="1"></TextView>
+	        <Spinner 
+	        	android:id="@+id/spinner0" 
+	        	android:layout_height="wrap_content" 
+	        	android:layout_gravity="center_horizontal"
+	        	android:textSize="20pt"   
+	        	android:layout_width="match_parent" android:layout_weight="1"></Spinner>
+	       <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_weight="1">
+	            <Button android:layout_height="wrap_content" 
+	            		android:text="OK" 
+	            		android:layout_width="wrap_content" 
+	            		android:id="@+id/OKButtonV" android:layout_gravity="left" android:layout_weight="1"></Button>
+	            <Button android:layout_height="wrap_content" 
+	            		android:text="Cancel" 
+	            		android:layout_width="wrap_content" 
+	            		android:id="@+id/cancelButtonV" android:layout_gravity="right" android:layout_weight="1"></Button>
+	        </LinearLayout>
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>
