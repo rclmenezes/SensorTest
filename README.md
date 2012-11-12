@@ -1,1 +1,1 @@
-Made in 2011 for some older version of Android.
+Made in 2011 by Rodrigo Menezes, Noah Freedman and Vladimir Costescu.
